@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Walk an argv array with a handler function using minimist conventions",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.d.ts"],
   "scripts": {
     "fix": "yarn pretty && yarn lint && yarn spell",
     "pretty": "prettier './**/*.{ts,js,json,md}' --write --ignore-path .eslintignore",
