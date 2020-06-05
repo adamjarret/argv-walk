@@ -1,0 +1,41 @@
+{
+  "name": "argv-walk",
+  "version": "1.0.0",
+  "description": "Walk an argv array with a handler function using minimist conventions",
+  "main": "index.js",
+  "scripts": {
+    "fix": "yarn pretty && yarn lint && yarn spell",
+    "pretty": "prettier './**/*.{ts,js,json,md}' --write --ignore-path .eslintignore",
+    "lint": "eslint .",
+    "spell": "cspell './**/*' --config .vscode/cSpell.json",
+    "ncu": "ncu",
+    "cover": "nyc yarn test",
+    "test": "spoon './tests/**/*.test.js'"
+  },
+  "keywords": [
+    "argv",
+    "args",
+    "arguments",
+    "parse",
+    "parser",
+    "minimist",
+    "optimist",
+    "getopt",
+    "meow",
+    "commander",
+    "yargs",
+    "yargs-parser"
+  ],
+  "author": "Adam Jarret <adam@atj.me> (https://atj.me)",
+  "license": "MIT",
+  "devDependencies": {
+    "cspell": "^4.0.63",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "npm-check-updates": "^6.0.1",
+    "nyc": "^15.1.0",
+    "prettier": "^2.0.5",
+    "spooning": "^1.1.2",
+    "spooning-cli": "^1.0.3"
+  }
+}

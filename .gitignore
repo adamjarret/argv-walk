@@ -1,0 +1,7 @@
+.*/*
+node_modules/
+
+!.vscode/cSpell.json
+!.vscode/*.sample.json
+
+argv-walk-*.tgz

@@ -1,0 +1,10 @@
+{
+  "javascript.suggestionActions.enabled": false,
+  "eslint.packageManager": "yarn",
+  "prettier.packageManager": "yarn",
+  "prettier.prettierPath": "node_modules/prettier",
+  "prettier.ignorePath": ".eslintignore",
+  "files.associations": {
+    "*.sample.json": "jsonc"
+  }
+}

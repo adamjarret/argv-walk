@@ -1,0 +1,23 @@
+{
+  "words": [
+    "Jarret",
+    "bools",
+    "dotall",
+    "docblock",
+    "meowmers",
+    "quux",
+    "meep",
+    "boool",
+    "getopt",
+    "eslintignore",
+    "prettierrc"
+  ],
+  "ignorePaths": [
+    ".git",
+    ".nyc_output",
+    "node_modules",
+    "*.tgz",
+    "yarn.lock",
+    "yarn-error.log"
+  ]
+}
