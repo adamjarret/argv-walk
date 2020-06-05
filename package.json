@@ -16,6 +16,13 @@
     "cover": "nyc yarn test",
     "test": "spoon './tests/**/*.test.js'"
   },
+  "author": "Adam Jarret <adam@atj.me> (https://atj.me)",
+  "license": "MIT",
+  "homepage": "https://github.com/adamjarret/argv-walk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamjarret/argv-walk.git"
+  },
   "keywords": [
     "argv",
     "args",
@@ -30,8 +37,6 @@
     "yargs",
     "yargs-parser"
   ],
-  "author": "Adam Jarret <adam@atj.me> (https://atj.me)",
-  "license": "MIT",
   "devDependencies": {
     "cspell": "^4.0.63",
     "eslint": "^7.1.0",
