@@ -1,6 +1,6 @@
 {
   "name": "argv-walk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Walk an argv array with a handler function using minimist conventions",
   "main": "index.js",
   "types": "index.d.ts",
